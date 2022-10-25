@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <!-- http://getbootstrap.com/docs/5.1/ -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
+
+        <!-- https://favicon.io/emoji-favicons/money-bag/ -->
+        <link href="data:image/png;base64,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" rel="icon">
+
+        <link href="/static/styles.css" rel="stylesheet">
+
+        <title>GDSC NUST: {% block title %}{% endblock %}</title>
+
+    </head>
+
+    <body class=".body">
+
+        <nav class="bg-light border navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><span class="blue">G</span><span class="red">D</span><span class="yellow">S</span><span class="green">C</span> <span class="red">NUST Chapter</span></a>
+                <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                          <ul>
+                             <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                          </ul>
+            </div>
+        </nav>
+
+        {% if get_flashed_messages() %}
+            <header>
+                <div class="alert alert-primary mb-0 text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+
+        <main class="container-fluid py-5 text-center">
+            {% block main %}{% endblock %}
+        </main>
+
+        <footer style="bottom : 2px;height : 40px;margin-top : 40px;text-align: center;vertical-align: middle;position:fixed;width:100%;">
+            <h5>Made By Faakhir Ul Hassan</h5>
+        </footer>
+
+    </body>
+
+</html>
